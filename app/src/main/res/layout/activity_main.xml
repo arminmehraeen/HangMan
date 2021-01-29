@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:textDirection="ltr"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بازی حدس کلمه"
+            android:fontFamily="@font/ss"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:src="@drawable/face_1"
+        android:id="@+id/face"/>
+
+    <TextView
+        android:fontFamily="@font/ss"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:id="@+id/text_Show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="----- ----"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layoutDirection="ltr"
+        android:textDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_6"
+                android:text="ج"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_5"
+                android:text="ث"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_4"
+                android:text="ت"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_3"
+                android:text="پ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_2"
+                android:text="ب"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_1"
+                android:text="ا"
+                style="@style/buttonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_12"
+                android:text="ر"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_11"
+                android:text="ذ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_10"
+                android:text="د"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_9"
+                android:text="خ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_8"
+                android:text="ح"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_7"
+                android:text="چ"
+                style="@style/buttonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_18"
+                android:text="ض"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_17"
+                android:text="ص"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_16"
+                android:text="ش"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_15"
+                android:text="س"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_14"
+                android:text="ژ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_13"
+                android:text="ز"
+                style="@style/buttonStyle" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_24"
+                android:text="ق"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_23"
+                android:text="ف"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_22"
+                android:text="غ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_21"
+                android:text="ع"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_20"
+                android:text="ظ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_19"
+                android:text="ط"
+                style="@style/buttonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_30"
+                android:text="و"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_29"
+                android:text="ن"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_28"
+                android:text="م"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_27"
+                android:text="ل"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_26"
+                android:text="گ"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_25"
+                android:text="ک"
+                style="@style/buttonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="ل"
+                android:visibility="invisible"
+                android:background="@color/colorAccent"
+                style="@style/buttonStyle" />
+            <Button
+                android:text="م"
+                android:visibility="invisible"
+                android:background="@color/colorAccent"
+                style="@style/buttonStyle" />
+            <Button
+                android:text="ن"
+                android:visibility="invisible"
+                android:background="@color/colorAccent"
+                style="@style/buttonStyle" />
+            <Button
+                android:text="و"
+                android:visibility="invisible"
+                android:background="@color/colorAccent"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_32"
+                android:text="ی"
+                style="@style/buttonStyle" />
+            <Button
+                android:id="@+id/btn_31"
+                android:text="ه"
+                style="@style/buttonStyle" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

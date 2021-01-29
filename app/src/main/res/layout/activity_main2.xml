@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بازی حدس کلمه"
+            android:fontFamily="@font/ss"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_Show"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/ss"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="تو برنده شدی !"
+        android:textSize="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_margin="2.5dp"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="خروچ"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ss"/>
+        <Button
+            android:id="@+id/btn_again"
+            android:layout_margin="2.5dp"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="دوباره"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/ss"/>
+    </LinearLayout>
+
+</LinearLayout>
